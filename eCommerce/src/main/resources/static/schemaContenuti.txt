@@ -1,0 +1,35 @@
+<p><h1><ul>
+        <li>Banner offerte speciali</li>
+        <li>Catchphrase carina anche esteticamente</li>
+        <li>Carosello immagini del negozio</li>
+        <li>Visualizzazione di una pagina iniziale con i prodotti in vetrina</li>
+        <li>Prodotti in saldo</li>
+    </ul></h1></p>
+
+
+    <p><h1><ul>
+        <li>Banner offerte speciali</li>
+        <li>Visualizzazione di una pagina iniziale con i prodotti in vetrina</li>
+        <li>Prodotti in saldo</li>
+        <li>form di ricerca con filtri vari dall'intero catalogo (CD)</li>
+    </ul></h1></p>
+
+
+     <p><h1><ul>
+        <li>Banner offerte speciali</li>
+        <li>Visualizzazione di una pagina iniziale con i prodotti in vetrina</li>
+        <li>Prodotti in saldo</li>
+        <li>form di ricerca con filtri vari dall'intero catalogo (Vinili)</li>
+    </ul></h1></p>
+
+
+     <p><h1><ul>
+        <li>Elenco prodotti attualmente nel carrello con relativo prezzo</li>
+        <li>Totale spesa con tutte le info e bottone per procedere all'ordine</li>
+    </ul></h1></p>
+
+
+
+    <p><h1><ul>
+      <li>Pagina unica con sezioni cliccabili (Account, Ordini, Lista desideri, Metodi di pagamento e spedizione)</li>
+  </ul></h1></p>
