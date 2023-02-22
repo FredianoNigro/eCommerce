@@ -10,7 +10,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Products {
+public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -25,12 +25,12 @@ public class Products {
 	private String image;
 	private int sale;
 	
-	public Products() {
+	public Product() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Products(int id, Type type, double price, String title, String artist, int year, Genre genre, int quantity,
+	public Product(int id, Type type, double price, String title, String artist, int year, Genre genre, int quantity,
 			String image, int sale) {
 		super();
 		this.id = id;
@@ -45,7 +45,7 @@ public class Products {
 		this.sale = sale;
 	}
 
-	public Products(Type type, double price, String title, String artist, int year, Genre genre, int quantity,
+	public Product(Type type, double price, String title, String artist, int year, Genre genre, int quantity,
 			String image, int sale) {
 		super();
 		this.type = type;
@@ -159,7 +159,7 @@ public class Products {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Products other = (Products) obj;
+		Product other = (Product) obj;
 		return Objects.equals(artist, other.artist) && genre == other.genre && id == other.id
 				&& Objects.equals(image, other.image)
 				&& Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price) && quantity == other.quantity

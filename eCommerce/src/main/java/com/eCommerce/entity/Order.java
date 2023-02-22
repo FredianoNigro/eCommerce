@@ -20,14 +20,14 @@ public class Order {
 	private double totalPrice;
 	private OrderTracking tracking;
 	@OneToMany
-	private List<Products> orderList;
+	private List<Product> orderList;
 	
 	public Order() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Order(int id, Date date, double totalPrice, OrderTracking tracking, List<Products> orderList) {
+	public Order(int id, Date date, double totalPrice, OrderTracking tracking, List<Product> orderList) {
 		super();
 		this.id = id;
 		this.date = date;
@@ -36,7 +36,7 @@ public class Order {
 		this.orderList = orderList;
 	}
 
-	public Order(Date date, double totalPrice, OrderTracking tracking, List<Products> orderList) {
+	public Order(Date date, double totalPrice, OrderTracking tracking, List<Product> orderList) {
 		super();
 		this.date = date;
 		this.totalPrice = totalPrice;
@@ -68,11 +68,11 @@ public class Order {
 		this.tracking = tracking;
 	}
 
-	public List<Products> getOrderList() {
+	public List<Product> getOrderList() {
 		return orderList;
 	}
 
-	public void setOrderList(List<Products> orderList) {
+	public void setOrderList(List<Product> orderList) {
 		this.orderList = orderList;
 	}
 

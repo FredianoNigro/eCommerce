@@ -23,9 +23,9 @@ public class User {
 	
 	
 	@OneToMany
-	private List<Products> wishlist;
+	private List<Product> wishlist;
 	@OneToMany
-	private List<Products> shoppingCart;
+	private List<Product> shoppingCart;
 	@OneToMany
 	private List<Order> orders;
 	@OneToOne
@@ -36,8 +36,8 @@ public class User {
 		// TODO Auto-generated constructor stub
 	}
 
-	public User(int id, String name, String surname, String email, String password, List<Products> wishlist,
-			List<Products> shoppingCart, List<Order> orders, Generality generality) {
+	public User(int id, String name, String surname, String email, String password, List<Product> wishlist,
+			List<Product> shoppingCart, List<Order> orders, Generality generality) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -50,8 +50,8 @@ public class User {
 		this.generality = generality;
 	}
 
-	public User(String name, String surname, String email, String password, List<Products> wishlist,
-			List<Products> shoppingCart, List<Order> orders, Generality generality) {
+	public User(String name, String surname, String email, String password, List<Product> wishlist,
+			List<Product> shoppingCart, List<Order> orders, Generality generality) {
 		super();
 		this.name = name;
 		this.surname = surname;
@@ -103,19 +103,19 @@ public class User {
 		this.password = password;
 	}
 
-	public List<Products> getWishlist() {
+	public List<Product> getWishlist() {
 		return wishlist;
 	}
 
-	public void setWishlist(List<Products> wishlist) {
+	public void setWishlist(List<Product> wishlist) {
 		this.wishlist = wishlist;
 	}
 
-	public List<Products> getShoppingCart() {
+	public List<Product> getShoppingCart() {
 		return shoppingCart;
 	}
 
-	public void setShoppingCart(List<Products> shoppingCart) {
+	public void setShoppingCart(List<Product> shoppingCart) {
 		this.shoppingCart = shoppingCart;
 	}
 
